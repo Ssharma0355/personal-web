@@ -1,0 +1,35 @@
+.dashboard {
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFFFF;
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+        margin-bottom: 30rem;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.dashboard p{
+    padding: 2rem;
+    color: black;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 1.2rem;
+    margin: 0 .5rem .5rem .5rem;
+
+}
+.dashboard .play {
+    background-color: #FFFFFF;
+    border: none;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.welcome{
+    padding: 2rem;
+}

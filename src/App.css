@@ -1,0 +1,35 @@
+/* Background Animation */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: scroll;
+  /* Prevent scrolling */
+  /* background-color: #F2A4B6; */
+  background: linear-gradient(270deg, #F2A4B6, #FF6B81, #FFB6C1, #F2A4B6);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+/* .moving-background {
+  background: linear-gradient(270deg, #F2A4B6, #FF6B81, #FFB6C1, #F2A4B6);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  height: 100vh;
+  overflow: hidden;
+} */
+
+/* Gradient Animation Keyframes */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
