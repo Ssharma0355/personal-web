@@ -10,9 +10,11 @@
     align-items: center;
     justify-content: center;
     z-index: 1001;
+
 }
 
 .modal-content {
+    margin-top: -20rem;
     background: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -20,12 +22,13 @@
     z-index: 1001;
     max-width: 90%;
     max-height: 90%;
-    overflow: hidden;
+    overflow: scroll;
+
 }
 
 .modal-content video {
     width: 100%;
-    height: auto;
+    height: 25rem;
     border-radius: 8px;
 }
 
