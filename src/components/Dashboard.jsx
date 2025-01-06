@@ -9,6 +9,10 @@ const Dashboard = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isPopupOpen, setIsPopupOpen] = useState(true);
 
+    const chatButton =()=>{
+        alert("Kardunga Baby jald hi time lagta ha code karne ma!!")
+    }
+
     return (
         <div className={`dashboard moving-background ${isModalOpen ? 'blur' : ''}`}>
             {isPopupOpen && <BirthdayPopup onClose={() => setIsPopupOpen(false)} />}
@@ -25,6 +29,7 @@ const Dashboard = () => {
             <Carousel />
 
             <h1>Sachin's Long chats</h1>
+            <button className='chatButton' onClick={chatButton}>Want latest chats 🫣?</button>
             <p className='para'>Well well well!!!
                 Good morning my Wonder Woman 👑💖
 

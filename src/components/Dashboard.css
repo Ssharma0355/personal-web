@@ -33,3 +33,8 @@ button {
 .welcome{
     padding: 2rem;
 }
+.chatButton{
+    border-radius: 1.2rem;
+    border: 1px solid pink;
+    background-color: #FFFFFF;
+}
